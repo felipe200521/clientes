@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../img/Design\ sem\ nome.png);
+    color: white;
+}
+
+a {
+    text-decoration: none !important;
+    color: rgb(0, 0, 0) !important;
+}
+
+header{
+    margin: 20px;
+    gap: 30px;
+    display: flex !important;
+    flex-direction: column !important;
+    text-align: center !important;
+    width: 10%;
+    margin-left: 45%;
+    font-family: Junge;
+}
+
+.perfil{
+    border-radius: 50%;
+    border-color: aliceblue;
+
+}
+
+.txt-perfil{
+    display: flex;
+    font-size: 180%;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.principal{
+    margin-top: 60px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    text-align: center !important;
+    align-items: center !important;
+}
+
+
+
+.conteudo{
+    
+    background-color: rgb(255, 255, 255) !important;
+    padding: 0.1em !important;
+    margin-top: 1em !important;
+    border-radius: 30px !important;
+    width: 100% !important;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.col-10{
+    margin-top: 2%;
+}
+
+.col-2{
+    display: flex;
+    margin: auto; 
+}
+
+.img-icone{
+    width: 35%;
+    margin-left: 250%;
+}
+
+.txt-icone{
+    font-size: 150%;
+    margin-right: 17%;
+}
+.txt-horario{
+    margin-top: 70px;
+    font-family: Junge;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    margin-top: 6%;
+    font-size: 8px;
+    color: white;
+}
+
+@media (min-width: 200px) and (max-width: 768px) {
+    .img-icone{
+        width: 70%;
+        margin-left: 210%;
+    }
+
+
+    header{
+        margin: 50px;
+        margin-top: 4%;
+        display: flex !important;
+        flex-direction: column !important;
+        margin-left: 45%;
+        font-family: Junge;
+        font-size: 100%;
+    }
+
+    .perfil{
+        border-radius: 50%;
+        border-color: aliceblue;
+        width: 300%;
+        margin-left: -90%;
+    }
+    
+    .conteudo{
+    
+        background-color: rgb(255, 255, 255) !important;
+        padding: 0.1em !important;
+        margin-top: 1em !important;
+        border-radius: 30px !important;
+        width: 90% !important;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .principal{
+        margin-top: 60px !important;
+        display: flex !important;
+        flex-direction: column !important;
+        text-align: center !important;
+        align-items: center !important;
+        margin-left: 15%;
+    }
+
+    .txt-horario{
+        margin-top: 70px;
+        font-family: Junge;
+        color: white;
+        margin-left: -20%;
+    }
+    
+    footer{
+        text-align: center;
+        margin-top: -3%;
+        font-size: 8px;
+        color: white;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 1023px) {
+    
+}
